@@ -114,6 +114,34 @@
 #icons01 li a svg {
 	list-style-type: none;
 }
+			#main > .inner {
+		--padding-horizontal: 2rem;
+		--padding-vertical: 3rem;
+		--spacing: 0.75rem;
+	}
+	
+	#main > .inner > * > .full {
+		margin-left: calc(-2rem);
+		max-width: calc(100% + 4rem + 0.4725px);
+		width: calc(100% + 4rem + 0.4725px);
+	}
+	
+	#main > .inner > * > .full.screen {
+		margin-left: -50vw;
+	}
+	
+	#main > .inner > header > .full:first-child {
+		margin-top: -3rem !important;
+	}
+	
+	#main > .inner > footer > .full:last-child {
+		margin-bottom: -3rem !important;
+	}
+	
+	#icons01 {
+		font-size: 2.125em;
+		gap: 0.75rem;
+	}
 		a {
 			color: inherit;
 		}
