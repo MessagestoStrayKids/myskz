@@ -13,20 +13,10 @@
 		<link href="https://fonts.googleapis.com/css2?display=swap&family=Bakbak+One:ital,wght@0,400;1,400" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/png" href="assets/images/favicon.png" />
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+		<link rel="stylesheet" href="assets/main.css" />
 	</head>
 	<body>
 		<style>
-	:root {
-	--background-height: 100vh;
-	--site-language-alignment: left;
-	--site-language-direction: ltr;
-	--site-language-flex-alignment: flex-start;
-	--site-language-indent-left: 1;
-	--site-language-indent-right: 0;
-	--site-language-margin-left: 0;
-	--site-language-margin-right: auto;
-	--viewport-height: 100vh;
-}	
 			body {
 	line-height: 1.0;
 	min-height: var(--viewport-height);
@@ -47,104 +37,6 @@
 	width: 100vw;
 	z-index: 0;
 }
-			.icons {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: var(--flex-alignment);
-	letter-spacing: 0;
-	padding: 0;
-}
-
-.icons li {
-	position: relative;
-	z-index: 1;
-}
-
-.icons li a {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
-
-.icons li a svg {
-	display: block;
-	position: relative;
-}
-
-.icons li a + svg {
-	display: block;
-	height: 100%;
-	left: 0;
-	pointer-events: none;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: -1;
-}
-
-.icons li a .label {
-	display: none;
-}
-
-#icons01 {
-	font-size: 2.125em;
-	gap: 0.75rem;
-}
-
-#icons01 li a {
-	height: 1em;
-	width: 1em;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-}
-
-#icons01 li a svg {
-	height: 100%;
-	width: 100%;
-	transition: fill 0.25s ease;
-}
-
-#icons01 a svg {
-	fill: #FFFFFF;
-}
-
-#icons01 li a + svg {
-	transition: fill 0.25s ease, stroke 0.25s ease;
-}
-
-#icons01 li a svg {
-	list-style-type: none;
-}
-			#main > .inner {
-		--padding-horizontal: 2rem;
-		--padding-vertical: 3rem;
-		--spacing: 0.75rem;
-	}
-	
-	#main > .inner > * > .full {
-		margin-left: calc(-2rem);
-		max-width: calc(100% + 4rem + 0.4725px);
-		width: calc(100% + 4rem + 0.4725px);
-	}
-	
-	#main > .inner > * > .full.screen {
-		margin-left: -50vw;
-	}
-	
-	#main > .inner > header > .full:first-child {
-		margin-top: -3rem !important;
-	}
-	
-	#main > .inner > footer > .full:last-child {
-		margin-bottom: -3rem !important;
-	}
-	
-	#icons01 {
-		font-size: 2.125em;
-		gap: 0.75rem;
-	}
-		a {
-			color: inherit;
-		}
 		h1 {
 		text-align: center;
 		background: linear-gradient(90deg, rgba(142, 14, 29, 1) 5%, rgba(15, 15, 15,1) 49%, rgba(142, 14, 29, 1) 90%);
