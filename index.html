@@ -16,7 +16,7 @@
 	</head>
 	<body>
 		<style>
-		:root {
+	:root {
 	--background-height: 100vh;
 	--site-language-alignment: left;
 	--site-language-direction: ltr;
@@ -27,6 +27,28 @@
 	--site-language-margin-right: auto;
 	--viewport-height: 100vh;
 }	
+			body {
+	line-height: 1.0;
+	min-height: var(--viewport-height);
+	min-width: 320px;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	content: '';
+	display: block;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+	height: var(--background-height);
+	left: 0;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transform: scale(1);
+	width: 100vw;
+	z-index: 0;
+}
+
 		h1 {
 		text-align: center;
 		background: linear-gradient(90deg, rgba(142, 14, 29, 1) 5%, rgba(15, 15, 15,1) 49%, rgba(142, 14, 29, 1) 90%);
@@ -58,10 +80,6 @@
 		@media only screen and (max-width: 767px) {
 		body {
 		  	background-image: url('https://i.ibb.co/FzJxSDp/background2.jpg');
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-  			background-size: cover;
-			background-color: #000000;
 		}	
 		h3 {
 		border-radius: 25px;
@@ -74,10 +92,6 @@
 		@media only screen and (min-width: 767px) {
 		body {
  			background-image: url('https://i.ibb.co/3pScvZK/background.jpg');
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-  			background-size: cover;
-			background-color: #000000;
 		}
 		h3 {
 		border-radius: 25px;
