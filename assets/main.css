@@ -67,48 +67,6 @@ code {
 	text-indent: 0;
 }
 
-mark {
-	background-color: rgba(144,144,144,0.25);
-}
-
-spoiler-text {
-	-webkit-text-stroke: 0;
-	background-color: rgba(32,32,32,0.75);
-	text-shadow: none;
-	text-stroke: 0;
-	color: transparent;
-	cursor: pointer;
-	transition: color 0.1s ease-in-out;
-}
-
-spoiler-text.active {
-	color: #FFFFFF;
-	cursor: text;
-}
-
-s {
-	text-decoration: line-through;
-}
-
-sub {
-	font-size: smaller;
-	vertical-align: sub;
-}
-
-sup {
-	font-size: smaller;
-	vertical-align: super;
-}
-
-a {
-	color: inherit;
-	text-decoration: underline;
-	transition: color 0.25s ease;
-}
-
-a[onclick]:not([href]) {
-	cursor: pointer;
-}
 
 unloaded-script {
 	display: none;
@@ -275,54 +233,6 @@ body.is-instant:after {
 	transition: fill 0.25s ease, stroke 0.25s ease;
 }
 
-#header {
-	margin-bottom: 0rem !important;
-}
-
-#footer {
-	margin-top: 0rem !important;
-}
-
-h1, h2, h3, p {
-	direction: var(--site-language-direction);
-	position: relative;
-}
-
-h1 span.p, h2 span.p, h3 span.p, p span.p {
-	display: block;
-	position: relative;
-}
-
-h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 strong, h3 strong, p strong, h1 a, h2 a, h3 a, p a, h1 code, h2 code, h3 code, p code, h1 mark, h2 mark, h3 mark, p mark, h1 spoiler-text, h2 spoiler-text, h3 spoiler-text, p spoiler-text {
-	-webkit-text-fill-color: currentcolor;
-}
-
-#text18 {
-	text-align: left;
-	color: #FFFFFF;
-	font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-	font-size: 1em;
-	line-height: 1.5;
-	font-weight: 700;
-}
-
-#text18 a {
-	text-decoration: underline;
-}
-
-#text18 a:hover {
-	text-decoration: none;
-}
-
-#text18 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
-
-#text18 mark {
-	background: linear-gradient(180deg, rgba(142, 14, 29, 1) 5%, rgba(84, 9, 18, 1) 90%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
 
 hr {
 	align-items: center;
@@ -339,73 +249,6 @@ hr:before {
 	content: '';
 }
 
-#divider06:before {
-	width: 100%;
-	background-color: #000000;
-	height: 26px;
-	border-radius: 0px;
-}
-
-.buttons {
-	cursor: default;
-	display: flex;
-	justify-content: var(--flex-alignment);
-	letter-spacing: 0;
-	padding: 0;
-}
-
-.buttons li {
-	max-width: 100%;
-	text-align: var(--alignment);
-}
-
-.buttons li a {
-	align-items: center;
-	justify-content: center;
-	max-width: 100%;
-	text-align: center;
-	text-decoration: none;
-	vertical-align: middle;
-	white-space: nowrap;
-}
-
-.buttons.style1 {
-	--flex-alignment: center;
-	--alignment: center;
-	gap: 0.5rem;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.buttons.style1 li a {
-	display: inline-block;
-	width: auto;
-	height: 2.125rem;
-	line-height: 2.125rem;
-	padding: 0 1.0625rem;
-	vertical-align: middle;
-	font-family: 'Bakbak One', sans-serif;
-	font-size: 1em;
-	font-weight: 400;
-	border-radius: 1.25rem;
-	direction: var(--site-language-direction);
-	overflow: hidden;
-	text-overflow: ellipsis;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-}
-
-.buttons.style1 .button {
-	background-color: #000000;
-	color: #000000;
-}
-
-.buttons.style1 .button:hover {
-	background-color: #000000 !important;
-}
-
-#buttons01 li a {
-	background-image: linear-gradient(135deg, rgba(254, 0, 0, 1) 5%, rgba(254, 251, 0, 1) 90%);
-}
 
 @media (max-width: 1920px) {
 	
