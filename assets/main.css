@@ -15,7 +15,6 @@ body {
 body:before {
 	content: '';
 	display: block;
-	background-attachment: scroll;
 	height: var(--background-height);
 	left: 0;
 	pointer-events: none;
