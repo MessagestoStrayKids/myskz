@@ -110,7 +110,7 @@ body {
 		font-size: 18px;
 		}
 		input[type='checkbox'] {
-		accent-color: rgba(142, 14, 29, 1);
+		accent-color: rgba(67, 67, 67, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
