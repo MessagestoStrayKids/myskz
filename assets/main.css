@@ -58,8 +58,9 @@ body {
 		body {
    			background-image: url('https://i.ibb.co/GdFQ0Cg/background-HOPmobile.jpg');
 		}
-		table{
-		margin-left:0px;}
+		table {
+		margin-left: 0px;
+		}
 		}
 	@media only screen and (min-width: 767px) {
 		body {
