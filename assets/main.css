@@ -1,7 +1,5 @@
 body {
-		background-color: black;
-		background-repeat: no-repeat;
-		background-size: cover;
+		
 		line-height: 1.0;
 		}
 	ul {
@@ -57,20 +55,20 @@ body {
 	@media only screen and (max-width: 767px) {
 		body {
    			background-image: url('https://i.ibb.co/GdFQ0Cg/background-HOPmobile.jpg');
-		}
-		table {
-			margin-left: 0px;
+			background-color: black;
 		}
 		}
 	@media only screen and (min-width: 767px) {
 		body {
+			background-color: black;
    			background-image: url('https://i.ibb.co/Dw5RfNT/background-HOP.jpg');
 		}
 		h3 {
 		display:inline;	
 		}
 		}
-		table{
+
+		table {
 		border-collapse: seperate;
 		border-spacing: 0px;
 		text-align: left;
@@ -78,8 +76,9 @@ body {
 		width: auto;
 		}
 		table tr td{
-		padding-left: 20px;
+		padding-left: 0px;
 		}
+
 		@font-face {
 		font-family: 'Bakbak One';
 		font-style: normal;
