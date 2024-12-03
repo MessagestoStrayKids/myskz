@@ -54,11 +54,12 @@ body {
 		font-family: 'Bakbak One';
 		font-size: 20px;
 		}
+
 	@media only screen and (max-width: 767px) {
 		body {
    			background-image: url('https://i.ibb.co/GdFQ0Cg/background-HOPmobile.jpg');
 		}
-		table {
+		table{
 		margin-left: 0px;
 		}
 		}
