@@ -176,6 +176,10 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 /*----*/
 
 #wrapper {
