@@ -22,10 +22,17 @@
 		body {
 		  	background-image: url('https://i.ibb.co/r6zWdf3/backgroundskzoclockmobile.jpg');
 		}
+		main {
+			width: 100%
+		
+		}
 		}
 	@media only screen and (min-width: 767px) {
 		body {
  			background-image: url('https://i.ibb.co/D8yWF25/background-SKZOclock.jpg');
+		}
+		main {
+			width: 75%;
 		}
 		}
 
@@ -34,6 +41,9 @@
 	ul {
  		list-style: none;
 		}
+	img {
+		max-width: 100%
+	}
 	a {
 		color: inherit;
 		}
@@ -253,7 +263,6 @@ header {
 }
 
 main {
-	width: 75%;
 	margin: 0 auto;  
 	justify-content: center;
 	text-align: center;
