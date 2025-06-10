@@ -1,4 +1,5 @@
 
+
 	@supports not (-webkit-touch-callout: none) {
 	  /* CSS for other than iOS devices */ 
 		body {
@@ -92,11 +93,15 @@
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		
 		text-align: left;
 		font-family: 'Bakbak One';
 		font-size: 20px;
 		}
 
+		.my-div {
+		  background-color: black;
+		}
 
 		table {
 		border-collapse: seperate;
