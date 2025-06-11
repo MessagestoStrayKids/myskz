@@ -104,6 +104,7 @@
 		}
 details > summary {
 background-color: black;
+	-webkit-background-clip: content-area;
 }
 		table {
 		border-collapse: seperate;
