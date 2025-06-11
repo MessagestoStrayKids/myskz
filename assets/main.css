@@ -1,5 +1,4 @@
 
-
 	@supports not (-webkit-touch-callout: none) {
 	  /* CSS for other than iOS devices */ 
 		body {
@@ -101,6 +100,7 @@
 
 details > summary {
 	text-align: center;
+	padding-left: 300px;
 }
 		table {
 		border-collapse: seperate;
