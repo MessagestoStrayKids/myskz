@@ -102,7 +102,7 @@
 		.my-div {
 		  background-color: black;
 		}
-details {
+details > summary {
 background-color: black;
 }
 		table {
