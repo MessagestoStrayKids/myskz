@@ -104,7 +104,7 @@
 		}
 details > summary {
 background-color: black;
-	-webkit-background-clip: content-area;
+	-webkit-background-clip: content-box;
 	 margin: 0; 
 }
 		table {
