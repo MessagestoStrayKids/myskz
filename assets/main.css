@@ -94,18 +94,13 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		
-		text-align: left;
+		text-align: center;
 		font-family: 'Bakbak One';
 		font-size: 20px;
 		}
 
-		.my-div {
-		  background-color: black;
-		}
 details > summary {
-display: table; /* keep the background color wrapped tight */
-    margin: 0px auto 0px auto; /* keep the table centered */
-	background-color:black;
+	text-align: center;
 }
 		table {
 		border-collapse: seperate;
