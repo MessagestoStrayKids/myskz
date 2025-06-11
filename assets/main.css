@@ -103,9 +103,10 @@
 		  background-color: black;
 		}
 details > summary {
-background-color: black;
-	-webkit-background-clip: content-box;
-	 margin: 0; 
+display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+	background-color:black;
 }
 		table {
 		border-collapse: seperate;
