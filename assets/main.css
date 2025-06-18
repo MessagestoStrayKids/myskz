@@ -159,6 +159,15 @@ details > summary {
 		font-size: 18px;
 		}
 
+		.AI {
+		background: url("https://i.ibb.co/GvQ0VRqX/Gtw-THLv-WMAA6-Gm-S.jpg");
+		background-size: cover;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-family: 'Bakbak One';
+		font-size: 18px;
+		}
+
 		input[type='checkbox'] {
 		accent-color: rgba(31, 58, 15, 1);
 		transform : scale(1.5);
