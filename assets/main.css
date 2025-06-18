@@ -166,6 +166,7 @@ details > summary {
 		-webkit-text-fill-color: transparent;
 		font-family: 'Bakbak One';
 		font-size: 18px;
+		display: inline;
 		}
 
 		input[type='checkbox'] {
