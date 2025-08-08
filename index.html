@@ -163,6 +163,17 @@
 						<br>
 				
 						<p style="text-align: center;"  style="padding:3px;"><span style="background:black">**Search bar returns only first result To search content: Desktop: CTRL+F, Mobile: Click 3 dots and choose option 'find in page'**</span></p>
+						
+						<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+						<script>
+						window.OneSignalDeferred = window.OneSignalDeferred || [];
+						OneSignalDeferred.push(async function(OneSignal) {
+							await OneSignal.init({
+							appId: "2ef5311c-e1de-44ba-9c3c-3b14aa5acfe0",
+							});
+						});
+						</script>
+						
 						<br><a href="https://myskz.messagestostraykids.com/#Recent" target="_self" class="button-85">Most Recent</a>
 						<br><br><br>
 
