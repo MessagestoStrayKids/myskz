@@ -14,11 +14,20 @@
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
 		<link rel="stylesheet" href="assets/main.css" /> 
 
-
+		<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+		<script>
+		window.OneSignalDeferred = window.OneSignalDeferred || [];
+		OneSignalDeferred.push(async function(OneSignal) {
+			await OneSignal.init({
+			appId: "2ef5311c-e1de-44ba-9c3c-3b14aa5acfe0",
+			});
+		});
+		</script>
 
 	</head>
 	<body>
 		
+
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<!-- This JavaScript file is required to load the XpressDox interview as well as the code required to run it -->
 		
@@ -158,33 +167,8 @@
 						<p style="text-align: center;"  style="padding:3px;"><span style="background:black">**Search bar returns only first result To search content: Desktop: CTRL+F, Mobile: Click 3 dots and choose option 'find in page'**</span></p>
 						
 						
-						
-						 <a href="#" id="subscribe-link" style="display: none;">Subscribe to Notifications</a>
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="async"></script>
-  <script>
-    function subscribe() {
-      OneSignal.push(["registerForPushNotifications"]);
-      event.preventDefault();
-    }
-
-    var OneSignal = OneSignal || [];
-    /* This example assumes you've already initialized OneSignal */
-    OneSignal.push(function() {
-      // If we're on an unsupported browser, do nothing
-      if (!OneSignal.isPushNotificationsSupported()) {
-        return;
-      }
-      OneSignal.isPushNotificationsEnabled(function(isEnabled) {
-        if (isEnabled) {
-          // The user is subscribed to notifications
-          // Don't show anything
-        } else {
-          document.getElementById("subscribe-link").addEventListener('click', subscribe);
-          document.getElementById("subscribe-link").style.display = '';
-        }
-      });
-    });
-  </script>
+						<div class='onesignal-customlink-container'></div>
+						 
 
 						<br><a href="https://myskz.messagestostraykids.com/#Recent" target="_self" class="button-85">Most Recent</a>
 						<br><br><br>
