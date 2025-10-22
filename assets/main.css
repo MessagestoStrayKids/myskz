@@ -202,7 +202,7 @@ details > summary {
 		}
 		
 		.dropdown-content a {
-		  color: rgba(206, 196, 161, 1);
+		  color: rgba(255, 183, 206, 1);
 		  padding: 12px 16px;
 		font-family: 'Bakbak One';
 		  text-decoration: none;
@@ -211,9 +211,9 @@ details > summary {
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		.dropdown-content a:hover {background-color: rgba(31, 58, 15, 1);}
+		.dropdown-content a:hover {background-color: rgba(85, 85, 85, 1);}
 		
-		.dropdown:hover .dropbtn {background-color: rgba(31, 58, 15, 1);}
+		.dropdown:hover .dropbtn {background-color: rgba(85, 85, 85, 1);}
 		
 		.button-85 {
 		  padding: 0.2em 0.6em;
