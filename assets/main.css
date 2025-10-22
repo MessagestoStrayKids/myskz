@@ -170,7 +170,7 @@ details > summary {
 		}
 
 		input[type='checkbox'] {
-		accent-color: rgba(29, 74, 191, 1);
+		accent-color: rgba(255, 183, 206, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
