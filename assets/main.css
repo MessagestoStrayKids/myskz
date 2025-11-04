@@ -57,7 +57,7 @@
 		font-size: 56px;
 		}
 	h2 {		
-		border-image:  url("https://i.ibb.co/gMyj3kBs/FANS-1761761833122.jpg") 100 Stretch;
+		border-image:  url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg") 100 Stretch;
 		border-bottom: 4px solid transparent;
 		border-top: 4px solid transparent;
 		border-left: 4px solid transparent;
@@ -78,7 +78,7 @@
 		text-align: center;
 		}*/
 	h4 {
-		border-image:  url("https://i.ibb.co/gMyj3kBs/FANS-1761761833122.jpg") 100 Stretch;
+		border-image:  url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg") 100 Stretch;
 		border-bottom: 3px solid transparent;
 		background: #000000;
 		color: #FFFFFF;
@@ -88,7 +88,7 @@
 		text-align: left;
 		}
 	h5 {
-		background: url("https://i.ibb.co/6c7c6PQG/Gwo-ZJLia-YAAp-B0w.jpg"); /*color: rgba(24, 75, 140, 1);*/
+		background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg"); /*color: rgba(24, 75, 140, 1);*/
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -151,7 +151,7 @@ details > summary {
 		}
 
 		mark {
-		background: url("https://i.ibb.co/6c7c6PQG/Gwo-ZJLia-YAAp-B0w.jpg");
+		background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg");
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -160,7 +160,7 @@ details > summary {
 		}
 
 		s {
-		background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg");
+		background: url("https://i.ibb.co/TDZRz14k/20251020-040438.jpg");
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -178,7 +178,7 @@ details > summary {
 		}
 
 		.dropbtn {
-		  background: url("https://i.ibb.co/6c7c6PQG/Gwo-ZJLia-YAAp-B0w.jpg");
+		  background: url("https://i.ibb.co/jZGGLdhj/FANS-1761489459844.jpg");
 		background-size: cover;
 		  color: white;
 		  font-family: 'Bakbak One';
@@ -235,7 +235,7 @@ details > summary {
 		
 		.button-85:before {
 		  content: "";
-		 background: url("https://i.ibb.co/6c7c6PQG/Gwo-ZJLia-YAAp-B0w.jpg");
+		 background: url("https://i.ibb.co/jZGGLdhj/FANS-1761489459844.jpg");
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
