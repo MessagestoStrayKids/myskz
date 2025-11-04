@@ -180,7 +180,7 @@ details > summary {
 		.dropbtn {
 		  background: url("https://i.ibb.co/jZGGLdhj/FANS-1761489459844.jpg");
 		background-size: cover;
-		  color: white;
+		  color: rgba(85, 85, 85, 1);
 		  font-family: 'Bakbak One';
 		font-style: Bold;
 		font-size: 26px;
