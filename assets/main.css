@@ -20,7 +20,7 @@
 
 	@media only screen and (max-width: 767px) {
 		body {
-		  	background-image: url('https://i.ibb.co/G4F2Bry1/background-Doitmobile.jpg');
+		  	background-image: url('https://i.ibb.co/Kc5Pbf9q/background-SOLHmobile.jpg');
 		}
 		main {
 			width: 100%
@@ -29,7 +29,7 @@
 		}
 	@media only screen and (min-width: 767px) {
 		body {
- 			background-image: url('https://i.ibb.co/60wJQMXP/background-Doit.jpg');
+ 			background-image: url('https://i.ibb.co/bMspkCTk/background-SOLH.jpg');
 		}
 		main {
 			width: 75%;
@@ -48,23 +48,21 @@
 		}
 	h1 {
 		text-align: center;
-		background: url("https://i.ibb.co/gMyj3kBs/FANS-1761761833122.jpg"); 
+		background: url("https://i.ibb.co/WWt4sxkG/HDBEygaa-AAAj-QR01.jpg"); 
 		background-size:100% 100%;
-		border: 5px solid #FFFFFF;
+		border: 5px solid rgb(252, 246, 214);
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
 		font-style: Bold;
 		font-size: 56px;
 		}
-	h2 {	background: url("https://i.ibb.co/mrbrP4ct/Screenshot-2025-11-14-150636.jpg");	
-			background-size:100% 100%;
-			border: 5px solid rgb(255, 183, 206);
-		/*border-image:  url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg") 100 Stretch;
+	h2 {		
+		border-image:  url("https://i.ibb.co/Ld6PHkfG/HCD80-E1b-IAAb-Cwi.jpg") 100 Stretch;
 		border-bottom: 4px solid transparent;
 		border-top: 4px solid transparent;
 		border-left: 4px solid transparent;
 		border-right: 4px solid transparent;
-		background: #000000;*/
+		background: #000000;
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
 		font-style: Bold;
@@ -80,9 +78,9 @@
 		text-align: center;
 		}*/
 	h4 {
-		border-image:  url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg") 100 Stretch;
+		border-image: url("https://i.ibb.co/DDm7LhzD/markcolor.png") 100 Stretch;
 		border-bottom: 3px solid transparent;
-		background: #000000;
+		background: #000000; 
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
 		font-style: Bold;
@@ -90,11 +88,12 @@
 		text-align: left;
 		}
 	h5 {
-		background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg"); /*color: rgba(24, 75, 140, 1);*/
+		/*background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg"); 
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		
+		*/
+		Color: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%);
 		text-align: center;
 		font-family: 'Bakbak One';
 		font-size: 20px;
@@ -153,7 +152,7 @@ details > summary {
 		}
 
 		mark {
-		background: url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg");
+		background: url("https://i.ibb.co/DDm7LhzD/markcolor.png");
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -162,33 +161,94 @@ details > summary {
 		}
 
 		s {
-		background: url("https://i.ibb.co/TDZRz14k/20251020-040438.jpg");
+		/*background: url("https://i.ibb.co/TDZRz14k/20251020-040438.jpg");
 		background-size: cover;
 		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		-webkit-text-fill-color: transparent;*/
+		Color: rgb(252, 246, 214, 1);
 		font-family: 'Bakbak One';
 		font-size: 18px;
 		text-decoration: none;
 		}
 
 		input[type='checkbox'] {
-		accent-color: rgba(255, 183, 206, 1);
+		accent-color: rgba(252, 246, 214, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
 		margin-bottom: 3%;
 		}
 
-		.dropbtn {
-		  background: url("https://i.ibb.co/jZGGLdhj/FANS-1761489459844.jpg");
+		/*.dropbtn {
+		  background: url("https://i.ibb.co/WWt4sxkG/HDBEygaa-AAAj-QR01.jpg");
 		background-size: cover;
 		  color: rgba(85, 85, 85, 1);
 		  font-family: 'Bakbak One';
 		font-style: Bold;
 		font-size: 26px;
 		  border: none;
+		}*/
+
+		.dropbtn {
+		  padding: 0.2em 0.6em;
+		  border: none;
+		  outline: none;
+		  color: #FFFFFF;
+		font-family: 'Bakbak One';
+		font-size: 24px;
+		text-align: center;
+		  background: #111;
+		  cursor: pointer;
+		  position: relative;
+		  z-index: 0;
+		  border-radius: 10px;
+		  user-select: none;
+		  -webkit-user-select: none;
+		  touch-action: manipulation;
 		}
 		
+		.dropbtn:before {
+		  content: "";
+		 background: url("https://i.ibb.co/DDm7LhzD/markcolor.png");
+		background-size: cover;
+		  position: absolute;
+		  top: -2px;
+		  left: -2px;
+		  background-size: 400%;
+		  z-index: -1;
+		  filter: blur(5px);
+		  -webkit-filter: blur(5px);
+		  width: calc(100% + 4px);
+		  height: calc(100% + 4px);
+		  animation: glowing-button-85 20s linear infinite;
+		  transition: opacity 0.3s ease-in-out;
+		  border-radius: 10px;
+		}
+		
+		@keyframes glowing-button-85 {
+		  0% {
+		    background-position: 0 0;
+		  }
+		  50% {
+		    background-position: 400% 0;
+		  }
+		  100% {
+		    background-position: 0 0;
+		  }
+		}
+		
+		.dropbtn:after {
+		  z-index: -1;
+		  content: "";
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  background: #222;
+		  left: 0;
+		  top: 0;
+		  border-radius: 10px;
+		}
+
 		.dropdown {
 		  position: relative;
 		  display: inline-block;
@@ -204,7 +264,7 @@ details > summary {
 		}
 		
 		.dropdown-content a {
-		  color: rgba(255, 183, 206, 1);
+		  color: rgba(250, 233, 239, 1);
 		  padding: 12px 16px;
 		font-family: 'Bakbak One';
 		  text-decoration: none;
@@ -213,9 +273,9 @@ details > summary {
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		.dropdown-content a:hover {background-color: rgba(85, 85, 85, 1);}
+		.dropdown-content a:hover {background-color: rgba(252, 246, 214, 1);}
 		
-		.dropdown:hover .dropbtn {background-color: rgba(85, 85, 85, 1);}
+		.dropdown:hover .dropbtn {background-color: rgba(252, 246, 214, 1);}
 		
 		.button-85 {
 		  padding: 0.2em 0.6em;
@@ -237,7 +297,7 @@ details > summary {
 		
 		.button-85:before {
 		  content: "";
-		 background: url("https://i.ibb.co/jZGGLdhj/FANS-1761489459844.jpg");
+		 background: url("https://i.ibb.co/DDm7LhzD/markcolor.png");
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
