@@ -178,6 +178,14 @@ details > summary {
 		margin-bottom: 3%;
 		}
 
+		.floating-button {
+		  position: fixed;   
+		  bottom: 20px;      
+		  left: 20px;       
+		  z-index: 1000;     
+			background: none;
+			border: none;
+		}
 
 		.dropbtn {
 		  padding: 0.2em 0.6em;
