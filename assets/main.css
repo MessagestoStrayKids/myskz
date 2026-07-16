@@ -151,7 +151,7 @@ details > summary {
 		}
 
 		mark {
-		background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%);/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%);/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
