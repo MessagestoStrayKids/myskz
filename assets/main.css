@@ -49,7 +49,7 @@
 		}
 	h1 {
 		text-align: center;
-		background: url("https://i.ibb.co/WWt4sxkG/HDBEygaa-AAAj-QR01.jpg"); 
+		background: url("https://i.ibb.co/DfZCmS6p/HLt-PQNRb-YAATss-I-2.jpg"); 
 		background-size:100% 100%;
 		border: 5px solid rgb(252, 246, 214);
 		color: #FFFFFF;
@@ -58,7 +58,7 @@
 		font-size: 56px;
 		}
 	h2 {		
-		border-image:  url("https://i.ibb.co/Ld6PHkfG/HCD80-E1b-IAAb-Cwi.jpg") 100 Stretch;
+		border-image:  url("https://i.ibb.co/yLGTxvJ/HLt-PQNRb-YAATss-I-1.jpg") 100 Stretch;
 		border-bottom: 4px solid transparent;
 		border-top: 4px solid transparent;
 		border-left: 4px solid transparent;
@@ -89,7 +89,7 @@
 		text-align: left;
 		}
 	h5 {
-		background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%)/*url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg")*/; 
+		background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%)/*url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg")*/; 
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -164,7 +164,7 @@ details > summary {
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;*/
-		Color: rgb(252, 246, 214, 1);
+		Color: rgb(255, 248, 103, 1);
 		font-family: 'Bakbak One';
 		font-size: 18px;
 		text-decoration: none;
@@ -207,7 +207,7 @@ details > summary {
 		
 		.dropbtn:before {
 		  content: "";
-		 background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%)/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		 background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%)/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
@@ -262,7 +262,7 @@ details > summary {
 		}
 		
 		.dropdown-content a {
-		  color: rgba(250, 233, 239, 1);
+		  color: rgb(235, 85, 0);
 		  padding: 12px 16px;
 		font-family: 'Bakbak One';
 		  text-decoration: none;
@@ -271,9 +271,9 @@ details > summary {
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		.dropdown-content a:hover {background-color: rgba(252, 246, 214, 1);}
+		.dropdown-content a:hover {background-color: rgb(255, 248, 103, 1);}
 		
-		.dropdown:hover .dropbtn {background-color: rgba(252, 246, 214, 1);}
+		.dropdown:hover .dropbtn {background-color: rgb(255, 248, 103, 1);}
 		
 		.button-85 {
 		  padding: 0.2em 0.6em;
@@ -295,7 +295,7 @@ details > summary {
 		
 		.button-85:before {
 		  content: "";
-		 background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%) /*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		 background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%) /*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
